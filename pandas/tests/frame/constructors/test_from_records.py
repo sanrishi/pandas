@@ -501,3 +501,18 @@ class TestFromRecords:
         )
         expected = DataFrame([], index=[0, 1], columns=["col_1", "Col_2"])
         tm.assert_frame_equal(result, expected)
+
+    def test_from_records_nrows_zero_with_exclude(self):
+        # GH#63774
+        rows = [
+            {"a": 1, "b": 2, "c": 3},
+            {"a": 4, "b": 5, "c": 6},
+            {"a": 7, "b": 8, "c": 9},
+        ]
+
+        result = DataFrame.from_records(
+            iter(rows), columns=["a", "b", "c"], exclude=["b"], nrows=0
+        )
+        expected = DataFrame(columns=["a", "c"])
+
+        tm.assert_frame_equal(result, expected)

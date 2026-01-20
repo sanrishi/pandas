@@ -2360,6 +2360,16 @@ class DataFrame(NDFrame, OpsMixin):
 
         if is_iterator(data):
             if nrows == 0:
+                if (
+                    columns is None
+                    and hasattr(data, "dtype")
+                    and data.dtype.names is not None
+                ):
+                    columns = list(data.dtype.names)
+
+                if columns is not None and exclude is not None:
+                    columns = [c for c in columns if c not in exclude]
+
                 return cls(index=index, columns=columns)
 
             try:
