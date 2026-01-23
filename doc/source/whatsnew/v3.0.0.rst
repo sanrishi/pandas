@@ -1467,7 +1467,10 @@ Other
   This logic is expanded to accessing the underlying pandas ExtensionArray
   through ``.array`` (or ``.values`` depending on the dtype) as well (:issue:`61925`).
 
+.. ***DO NOT USE THIS SECTION***
 
+.. ---------------------------------------------------------------------------
+.. _whatsnew_300.contributors:
 
 
 Contributors
