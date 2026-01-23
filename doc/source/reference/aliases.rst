@@ -10,7 +10,7 @@ pandas typing aliases
 Typing aliases
 **************
 
-.. module:: pandas.api.typing.aliases
+.. currentmodule:: pandas.api.typing.aliases
 
 The typing declarations in ``pandas/_typing.py`` are considered private, and used
 by pandas developers for type checking of the pandas code base.  For users, it is
