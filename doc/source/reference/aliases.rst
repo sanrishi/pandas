@@ -25,9 +25,9 @@ own python code that calls pandas or expects certain results.
 
 Each of these aliases listed below can be found by importing them from :py:mod:`pandas.api.typing`.
 
-=====================================  ===========================================================================================================
+=====================================================================================================
 Alias                                  Meaning
-=====================================  ===========================================================================================================
+====================================================================================================
 ``AggFuncType``                        Type of functions that can be passed to :meth:`agg` methods
 ``AlignJoin``                          Argument type for ``join`` in :meth:`DataFrame.join`
 ``AnyAll``                             Argument type for ``how`` in :meth:`dropna`
