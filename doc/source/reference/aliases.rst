@@ -72,25 +72,25 @@ Alias                                  Meaning
 ``ReadCsvBuffer``                      Additional argument type corresponding to buffers for :meth:`pandas.read_csv`
 ``ReadPickleBuffer``                   Additional argument type corresponding to buffers for :meth:`pandas.read_pickle`
 ``ReindexMethod``                      Argument type for ``reindex`` in :meth:`reindex`
-``Scalar``                             Types that can be stored in :class:`Series` with non-object dtype`
-``SequenceNotStr``                     Used for arguments that require sequences, but not plain strings`
+``Scalar``                             Types that can be stored in :class:`Series` with non-object dtype
+``SequenceNotStr``                     Used for arguments that require sequences, but not plain strings
 ``SliceType``                          Argument types for ``start`` and ``end`` in :meth:`Index.slice_locs`
 ``SortKind``                           Argument type for ``kind`` in :meth:`sort_index` and :meth:`sort_values`
 ``StorageOptions``                     Argument type for ``storage_options`` in various file output methods
 ``Suffixes``                           Argument type for ``suffixes`` in :meth:`merge`, :meth:`compare` and :meth:`merge_ordered`
-``TakeIndexer``                        Argument type for ``indexer`` and ``indices`` in :meth:`take`.
-``TimeAmbiguous``                      Argument type for ``ambiguous`` in time operations.
-``TimeGrouperOrigin``                  Argument type for ``origin`` in :meth:`resample` and :class:`TimeGrouper`.
-``TimeNonexistent``                    Argument type for ``nonexistent`` in time operations.
-``TimeUnit``                           Time unit argument and return type for :py:attr:`unit`, arguments ``unit`` and ``date_unit``.
-``TimedeltaConvertibleTypes``          Argument type for ``offset`` in :meth:`resample`, ``halflife`` in :meth:`ewm` and ``start`` and ``end`` in :meth:`pandas.timedelta_range`.
-``TimestampConvertibleTypes``          Argument type for ``origin`` in :meth:`resample` and :meth:`pandas.to_datetime`.
-``ToStataByteorder``                   Argument type for ``byteorder`` in :meth:`DataFrame.to_stata`.
-``ToTimestampHow``                     Argument type for ``how`` in :meth:`to_timestamp` and ``convention`` in :meth:`resample`.
-``UpdateJoin``                         Argument type for ``join`` in :meth:`DataFrame.update`.
-``UsecolsArgType``                     Argument type for ``usecols`` in :meth:`pandas.read_clipboard`, :meth:`pandas.read_csv` and :meth:`pandas.read_excel`.
-``WindowingRankType``                  Argument type for ``method`` in :meth:`rank` in rolling and expanding window operations.
-``WriteBuffer``                        Additional argument type corresponding to buffers for various file output methods.
-``WriteExcelBuffer``                   Additional argument type corresponding to buffers for :meth:`to_excel`.
-``XMLParsers``                         Argument type for ``parser`` in :meth:`DataFrame.to_xml` and :meth:`pandas.read_xml`.
+``TakeIndexer``                        Argument type for ``indexer`` and ``indices`` in :meth:`take`
+``TimeAmbiguous``                      Argument type for ``ambiguous`` in time operations
+``TimeGrouperOrigin``                  Argument type for ``origin`` in :meth:`resample` and :class:`TimeGrouper`
+``TimeNonexistent``                    Argument type for ``nonexistent`` in time operations
+``TimeUnit``                           Time unit argument and return type for :py:attr:`unit`, arguments ``unit`` and ``date_unit``
+``TimedeltaConvertibleTypes``          Argument type for ``offset`` in :meth:`resample`, ``halflife`` in :meth:`ewm` and ``start`` and ``end`` in :meth:`pandas.timedelta_range`
+``TimestampConvertibleTypes``          Argument type for ``origin`` in :meth:`resample` and :meth:`pandas.to_datetime`
+``ToStataByteorder``                   Argument type for ``byteorder`` in :meth:`DataFrame.to_stata`
+``ToTimestampHow``                     Argument type for ``how`` in :meth:`to_timestamp` and ``convention`` in :meth:`resample`
+``UpdateJoin``                         Argument type for ``join`` in :meth:`DataFrame.update`
+``UsecolsArgType``                     Argument type for ``usecols`` in :meth:`pandas.read_clipboard`, :meth:`pandas.read_csv` and :meth:`pandas.read_excel`
+``WindowingRankType``                  Argument type for ``method`` in :meth:`rank` in rolling and expanding window operations
+``WriteBuffer``                        Additional argument type corresponding to buffers for various file output methods
+``WriteExcelBuffer``                   Additional argument type corresponding to buffers for :meth:`to_excel`
+``XMLParsers``                         Argument type for ``parser`` in :meth:`DataFrame.to_xml` and :meth:`pandas.read_xml`
 =====================================  ===========================================================================================================
