@@ -26,7 +26,7 @@ own python code that calls pandas or expects certain results.
 Each of these aliases listed below can be found by importing them from :py:mod:`pandas.api.typing`.
 
 =====================================================================================================
-Alias                                  Meaning
+Alias                                 Meaning
 ====================================================================================================
 ``AggFuncType``                        Type of functions that can be passed to :meth:`agg` methods
 ``AlignJoin``                          Argument type for ``join`` in :meth:`DataFrame.join`
@@ -93,4 +93,4 @@ Alias                                  Meaning
 ``WriteBuffer``                        Additional argument type corresponding to buffers for various file output methods
 ``WriteExcelBuffer``                   Additional argument type corresponding to buffers for :meth:`to_excel`
 ``XMLParsers``                         Argument type for ``parser`` in :meth:`DataFrame.to_xml` and :meth:`pandas.read_xml`
-=====================================  ===========================================================================================================
+==================================== ================================================================
