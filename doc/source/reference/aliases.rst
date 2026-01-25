@@ -23,7 +23,7 @@ own python code that calls pandas or expects certain results.
 
     Note that the definitions and use cases of these aliases are subject to change without notice in any major, minor, or patch release of pandas.
 
-Each of these aliases listed in the table below can be found by importing them from :py:mod:`pandas.api.typing`.
+Each of these aliases listed in the table below can be found by importing them from :py:mod:`pandas.api.typing.aliases`.
 
 ==================================== ================================================================
 Alias                                Meaning
