@@ -1,4 +1,4 @@
-po{{ header }}
+{{ header }}
 
 ======================================
 pandas typing aliases
@@ -98,11 +98,5 @@ Alias                                Meaning
 .. type:: WriteBuffer                Additional argument type corresponding to buffers for various file output methods
 .. type:: WriteExcelBuffer           Additional argument type corresponding to buffers for :meth:`to_excel`
 .. type:: XMLParsers                 Argument type for ``parser`` in :meth:`~pandas.DataFrame.to_xml` and :meth:`pandas.read_xml`
-``ToTimestampHow``                     Argument type for ``how`` in :meth:`to_timestamp` and ``convention`` in :meth:`resample`
-``UpdateJoin``                         Argument type for ``join`` in :meth:`DataFrame.update`
-``UsecolsArgType``                     Argument type for ``usecols`` in :meth:`pandas.read_clipboard`, :meth:`pandas.read_csv` and :meth:`pandas.read_excel`
-``WindowingRankType``                  Argument type for ``method`` in :meth:`rank` in rolling and expanding window operations
-``WriteBuffer``                        Additional argument type corresponding to buffers for various file output methods
-``WriteExcelBuffer``                   Additional argument type corresponding to buffers for :meth:`to_excel`
-``XMLParsers``                         Argument type for ``parser`` in :meth:`DataFrame.to_xml` and :meth:`pandas.read_xml`
+
 ==================================== ================================================================
