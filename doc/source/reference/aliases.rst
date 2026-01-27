@@ -73,7 +73,7 @@ Alias                                Meaning
 .. type:: NsmallestNlargestKeep      Argument type for ``keep`` in :meth:`~pandas.DataFrame.nlargest`, :meth:`~pandas.DataFrame.nsmallest`, :meth:`~pandas.Series.nlargest`, :meth:`~pandas.Series.nsmallest`, and :meth:`~pandas.core.groupby.SeriesGroupBy.nlargest`
 .. type:: OpenFileErrors             Argument type for ``errors`` in :meth:`to_hdf` and :meth:`to_csv`
 .. type:: Ordered                    Return type for :py:attr:`ordered` in :class:`CategoricalDtype` and :class:`Categorical`
-.. type:: ParquetCompressionOptions  Argument type for ``compression`` in :meth:`~pandas.DataFrame.to_parquet` and :meth:`~pandas.Series.to_parquet`
+.. type:: ParquetCompressionOptions  Argument type for ``compression`` in :meth:`~pandas.DataFrame.to_parquet`
 .. type:: QuantileInterpolation      Argument type for ``interpolation`` in :meth:`~pandas.DataFrame.quantile` and :meth:`~pandas.Series.quantile`
 .. type:: ReadBuffer                 Additional argument type corresponding to buffers for various file reading methods
 .. type:: ReadCsvBuffer              Additional argument type corresponding to buffers for :meth:`pandas.read_csv`
