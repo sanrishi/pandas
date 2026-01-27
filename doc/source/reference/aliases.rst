@@ -35,8 +35,8 @@ Each of these aliases listed in the table below can be found by importing them f
 ==================================== ================================================================
 Alias                                Meaning
 ==================================== ================================================================
-.. type:: AggFuncType                Type of functions that can be passed to :meth:`~pandas.DataFrame.agg`, :meth:`~pandas.Series.agg`, and :meth:`~pandas.core.groupby.DataFrameGroupBy.aggregate`
-.. type:: AlignJoin                  Argument type for ``join`` in :meth:`~pandas.DataFrame.align` and :meth:`~pandas.Series.align`
+.. type:: AggFuncType                Type of functions that can be passed to :meth:`DataFrame.agg <pandas.DataFrame.agg>`, :meth:`Series.agg <pandas.Series.agg>`, and :meth:`DataFrameGroupBy.aggregate <pandas.core.groupby.DataFrameGroupBy.aggregate>`
+.. type:: AlignJoin                  Argument type for ``join`` in :meth:`DataFrame.align <pandas.DataFrame.align>` and :meth:`Series.align <pandas.Series.align>`
 .. type:: AnyAll                     Argument type for ``how`` in :meth:`~pandas.DataFrame.dropna`
 .. type:: AnyArrayLike               Used to represent :class:`~pandas.api.extensions.ExtensionArray`, ``numpy`` arrays, :class:`Index` and :class:`Series`
 .. type:: ArrayLike                  Used to represent :class:`~pandas.api.extensions.ExtensionArray`, ``numpy`` arrays
@@ -46,14 +46,14 @@ Alias                                Meaning
 .. type:: CSVEngine                  Argument type for ``engine`` in :meth:`pandas.DataFrame.read_csv`
 .. type:: ColspaceArgType            Argument type for ``colspace`` in :meth:`pandas.DataFrame.to_html`
 .. type:: CompressionOptions         Argument type for ``compression`` in all I/O output methods except :meth:`~pandas.DataFrame.to_parquet`
-.. type:: CorrelationMethod          Argument type for ``correlation`` in :meth:`~pandas.DataFrame.corr` and :meth:`~pandas.Series.corr`
-.. type:: DropKeep                   Argument type for ``keep`` in :meth:`~pandas.DataFrame.drop_duplicates` and :meth:`~pandas.Series.drop_duplicates`
+.. type:: CorrelationMethod          Argument type for ``correlation`` in :meth:`DataFrame.corr <pandas.DataFrame.corr>` and :meth:`Series.corr <pandas.Series.corr>`
+.. type:: DropKeep                   Argument type for ``keep`` in :meth:`DataFrame.drop_duplicates <pandas.DataFrame.drop_duplicates>` and :meth:`Series.drop_duplicates <pandas.Series.drop_duplicates>`
 .. type:: Dtype                      Types as objects that can be used to specify dtypes
 .. type:: DtypeArg                   Argument type for ``dtype`` in various methods
 .. type:: DtypeBackend               Argument type for ``dtype_backend`` in various methods
 .. type:: DtypeObj                   Numpy dtypes and Extension dtypes
 .. type:: ExcelWriterIfSheetExists   Argument type for ``if_sheet_exists`` in :class:`~pandas.ExcelWriter`
-.. type:: ExcelWriterMergeCells      Argument type for ``merge_cells`` in :meth:`~pandas.DataFrame.to_excel` and :meth:`~pandas.Series.to_excel`
+.. type:: ExcelWriterMergeCells      Argument type for ``merge_cells`` in :meth:`DataFrame.to_excel <pandas.DataFrame.to_excel>` and :meth:`Series.to_excel <pandas.Series.to_excel>`
 .. type:: FilePath                   Type of paths for files for I/O methods
 .. type:: FillnaOptions              Argument type for ``method`` in various methods where NA values are filled
 .. type:: FloatFormatType            Argument type for ``float_format`` in :meth:`~pandas.DataFrame.to_string` and :meth:`~pandas.Series.to_string`
