@@ -45,7 +45,7 @@ Alias                                Meaning
 .. type:: Axis                       Argument type for ``axis`` in many methods
 .. type:: CSVEngine                  Argument type for ``engine`` in :meth:`pandas.DataFrame.read_csv`
 .. type:: ColspaceArgType            Argument type for ``colspace`` in :meth:`pandas.DataFrame.to_html`
-.. type:: CompressionOptions         Argument type for ``compression`` in all I/O output methods except :meth:`~pandas.DataFrame.to_parquet` and :meth:`~pandas.Series.to_parquet`
+.. type:: CompressionOptions         Argument type for ``compression`` in all I/O output methods except :meth:`~pandas.DataFrame.to_parquet`
 .. type:: CorrelationMethod          Argument type for ``correlation`` in :meth:`~pandas.DataFrame.corr` and :meth:`~pandas.Series.corr`
 .. type:: DropKeep                   Argument type for ``keep`` in :meth:`~pandas.DataFrame.drop_duplicates` and :meth:`~pandas.Series.drop_duplicates`
 .. type:: Dtype                      Types as objects that can be used to specify dtypes
