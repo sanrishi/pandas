@@ -56,25 +56,25 @@ Alias                                Meaning
 .. type:: ExcelWriterMergeCells      Argument type for ``merge_cells`` in :meth:`DataFrame.to_excel <pandas.DataFrame.to_excel>` and :meth:`Series.to_excel <pandas.Series.to_excel>`
 .. type:: FilePath                   Type of paths for files for I/O methods
 .. type:: FillnaOptions              Argument type for ``method`` in various methods where NA values are filled
-.. type:: FloatFormatType            Argument type for ``float_format`` in :meth:`~pandas.DataFrame.to_string` and :meth:`~pandas.Series.to_string`
-.. type:: FormattersType             Argument type for ``formatters`` in :meth:`~pandas.DataFrame.to_string` and :meth:`~pandas.Series.to_string`
+.. type:: FloatFormatType            Argument type for ``float_format`` in :meth:`DataFrame.to_string <pandas.DataFrame.to_string>` and :meth:`Series.to_string <pandas.Series.to_string>`
+.. type:: FormattersType             Argument type for ``formatters`` in :meth:`DataFrame.to_string <pandas.DataFrame.to_string>` and :meth:`Series.to_string <pandas.Series.to_string
 .. type:: FromDictOrient             Argument type for ``orient`` in :meth:`~pandas.DataFrame.from_dict`
 .. type:: HTMLFlavors                Argument type for ``flavor`` in :meth:`pandas.read_html`
 .. type:: IgnoreRaise                Argument type for ``errors`` in multiple methods
 .. type:: IndexLabel                 Argument type for ``level`` in multiple methods
-.. type:: InterpolateOptions         Argument type for ``interpolate`` in :meth:`~pandas.DataFrame.interpolate` and :meth:`~pandas.Series.interpolate`
+.. type:: InterpolateOptions         Argument type for ``interpolate`` in :meth:`DataFrame.interpolate <pandas.DataFrame.interpolate>` and :meth:`Series.interpolate <pandas.Series.interpolate>`
 .. type:: JSONEngine                 Argument type for ``engine`` in :meth:`read_json`
 .. type:: JSONSerializable           Argument type for the return type of a callable for argument ``default_handler`` in :meth:`to_json`
 .. type:: JoinHow                    Argument type for ``how`` in :meth:`pandas.merge_ordered` and for ``join`` in :meth:`Series.align`
 .. type:: JoinValidate               Argument type for ``validate`` in :meth:`~pandas.DataFrame.join`
 .. type:: MergeHow                   Argument type for ``how`` in :meth:`merge`
 .. type:: MergeValidate              Argument type for ``validate`` in :meth:`merge`
-.. type:: NaPosition                 Argument type for ``na_position`` in :meth:`~pandas.DataFrame.sort_values` and :meth:`~pandas.Series.sort_values`
-.. type:: NsmallestNlargestKeep      Argument type for ``keep`` in :meth:`~pandas.DataFrame.nlargest`, :meth:`~pandas.DataFrame.nsmallest`, :meth:`~pandas.Series.nlargest`, :meth:`~pandas.Series.nsmallest`, and :meth:`~pandas.core.groupby.SeriesGroupBy.nlargest`
+.. type:: NaPosition                 Argument type for ``na_position`` in :meth:`DataFrame.sort_values <pandas.DataFrame.sort_values>` and :meth:`Series.sort_values <pandas.Series.sort_values>`
+.. type:: NsmallestNlargestKeep      Argument type for ``keep`` in :meth:`DataFrame.nlargest <pandas.DataFrame.nlargest>`, :meth:`DataFrame.nsmallest <pandas.DataFrame.nsmallest>`, :meth:`Series.nlargest <pandas.Series.nlargest>`, :meth:`Series.nsmallest <pandas.Series.nsmallest>`, and :meth:`SeriesGroupBy.nlargest <pandas.core.groupby.SeriesGroupBy.nlargest>`
 .. type:: OpenFileErrors             Argument type for ``errors`` in :meth:`to_hdf` and :meth:`to_csv`
 .. type:: Ordered                    Return type for :py:attr:`ordered` in :class:`CategoricalDtype` and :class:`Categorical`
 .. type:: ParquetCompressionOptions  Argument type for ``compression`` in :meth:`~pandas.DataFrame.to_parquet`
-.. type:: QuantileInterpolation      Argument type for ``interpolation`` in :meth:`~pandas.DataFrame.quantile` and :meth:`~pandas.Series.quantile`
+.. type:: QuantileInterpolation      Argument type for ``interpolation`` in :meth:`DataFrame.quantile <pandas.DataFrame.quantile>` and :meth:`Series.quantile <pandas.Series.quantile>`
 .. type:: ReadBuffer                 Additional argument type corresponding to buffers for various file reading methods
 .. type:: ReadCsvBuffer              Additional argument type corresponding to buffers for :meth:`pandas.read_csv`
 .. type:: ReadPickleBuffer           Additional argument type corresponding to buffers for :meth:`pandas.read_pickle`
@@ -82,7 +82,7 @@ Alias                                Meaning
 .. type:: Scalar                     Types that can be stored in :class:`Series` with non-object dtype
 .. type:: SequenceNotStr             Used for arguments that require sequences, but not plain strings
 .. type:: SliceType                  Argument types for ``start`` and ``end`` in :meth:`Index.slice_locs`
-.. type:: SortKind                   Argument type for ``kind`` in :meth:`~pandas.DataFrame.sort_values` and :meth:`~pandas.Series.sort_values`
+.. type:: SortKind                   Argument type for ``kind`` in :meth:`DataFrame.sort_values <pandas.DataFrame.sort_values>` and :meth:`Series.sort_values <pandas.Series.sort_values>`
 .. type:: StorageOptions             Argument type for ``storage_options`` in various file output methods
 .. type:: Suffixes                   Argument type for ``suffixes`` in :meth:`merge`, :meth:`compare` and :meth:`merge_ordered`
 .. type:: TakeIndexer                Argument type for ``indexer`` and ``indices`` in :meth:`take`
@@ -93,8 +93,8 @@ Alias                                Meaning
 .. type:: TimedeltaConvertibleTypes  Argument type for ``offset`` in various methods, such as :meth:`DataFrame’s <pandas.DataFrame.resample>` and :meth:`Series’ <pandas.Series.resample>` ``resample()``, ``halflife`` in :meth:`DataFrame’s <pandas.DataFrame.ewm>`, :meth:`DataFrameGroupBy’s <.DataFrameGroupBy.ewm>`, and :meth:`Series’ <pandas.Series.ewm>` ``ewm()``, and ``start`` and ``end`` in :meth:`pandas.timedelta_range`
 .. type:: TimestampConvertibleTypes  Argument type for ``origin`` in :meth:`DataFrame’s <pandas.DataFrame.resample>` and :meth:`Series’ <pandas.Series.resample>` ``resample()``, and in :meth:`pandas.to_datetime`
 .. type:: ToStataByteorder           Argument type for ``byteorder`` in :meth:`~pandas.DataFrame.to_stata`
-.. type:: ToTimestampHow             Argument type for ``how`` in :meth:`~pandas.DataFrame.to_timestamp` and :meth:`~pandas.Series.to_timestamp`
-.. type:: UpdateJoin                 Argument type for ``join`` in :meth:`~pandas.DataFrame.update` and :meth:`~pandas.Series.update`
+.. type:: ToTimestampHow             Argument type for ``how`` in :meth:`DataFrame.to_timestamp <pandas.DataFrame.to_timestamp>` and :meth:`Series.to_timestamp <pandas.Series.to_timestamp>`
+.. type:: UpdateJoin                 Argument type for ``join`` in :meth:`DataFrame.update <pandas.DataFrame.update>` and :meth:`Series.update <pandas.Series.update>`
 .. type:: UsecolsArgType             Argument type for ``usecols`` in :meth:`pandas.read_clipboard`, :meth:`pandas.read_csv` and :meth:`pandas.read_excel`
 .. type:: WindowingRankType          Argument type for ``method`` in :meth:`DataFrame’s <pandas.DataFrame.rank>` and :meth:`Series’ <pandas.Series.rank>` ``rank()`` in rolling and expanding window operations
 .. type:: WriteBuffer                Additional argument type corresponding to buffers for various file output methods
