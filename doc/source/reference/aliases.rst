@@ -70,7 +70,7 @@ Alias                                Meaning
 .. type:: MergeHow                   Argument type for ``how`` in :meth:`merge`
 .. type:: MergeValidate              Argument type for ``validate`` in :meth:`merge`
 .. type:: NaPosition                 Argument type for ``na_position`` in :meth:`~pandas.DataFrame.sort_values` and :meth:`~pandas.Series.sort_values`
-.. type:: NsmallestNlargestKeep      Argument type for ``keep`` in :meth:`~pandas.DataFrame.nlargest`, :meth:`~pandas.DataFrame.nsmallest`, :meth:`~pandas.Series.nlargest`, and :meth:`~pandas.Series.nsmallest`
+.. type:: NsmallestNlargestKeep      Argument type for ``keep`` in :meth:`~pandas.DataFrame.nlargest`, :meth:`~pandas.DataFrame.nsmallest`, :meth:`~pandas.Series.nlargest`, :meth:`~pandas.Series.nsmallest`, and :meth:`~pandas.core.groupby.SeriesGroupBy.nlargest`
 .. type:: OpenFileErrors             Argument type for ``errors`` in :meth:`to_hdf` and :meth:`to_csv`
 .. type:: Ordered                    Return type for :py:attr:`ordered` in :class:`CategoricalDtype` and :class:`Categorical`
 .. type:: ParquetCompressionOptions  Argument type for ``compression`` in :meth:`~pandas.DataFrame.to_parquet` and :meth:`~pandas.Series.to_parquet`
