@@ -57,7 +57,7 @@ Alias                                Meaning
 .. type:: FilePath                   Type of paths for files for I/O methods
 .. type:: FillnaOptions              Argument type for ``method`` in various methods where NA values are filled
 .. type:: FloatFormatType            Argument type for ``float_format`` in :meth:`DataFrame.to_string <pandas.DataFrame.to_string>` and :meth:`Series.to_string <pandas.Series.to_string>`
-.. type:: FormattersType             Argument type for ``formatters`` in :meth:`DataFrame.to_string <pandas.DataFrame.to_string>` and :meth:`Series.to_string <pandas.Series.to_string
+.. type:: FormattersType             Argument type for ``formatters`` in :meth:`DataFrame.to_string <pandas.DataFrame.to_string>` and :meth:`Series.to_string <pandas.Series.to_string>`
 .. type:: FromDictOrient             Argument type for ``orient`` in :meth:`~pandas.DataFrame.from_dict`
 .. type:: HTMLFlavors                Argument type for ``flavor`` in :meth:`pandas.read_html`
 .. type:: IgnoreRaise                Argument type for ``errors`` in multiple methods
