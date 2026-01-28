@@ -189,6 +189,7 @@ cdef extern from "pandas/parser/tokenizer.h":
         # Tokenizing stuff
         ParserState state
         int doublequote            # is " represented by ""? */
+        int strip_bom              # strip UTF-8 BOM if found
         char delimiter             # field separator */
         int delim_whitespace       # consume tabs / spaces instead
         char quotechar             # quote character */
@@ -230,6 +231,7 @@ cdef extern from "pandas/parser/tokenizer.h":
         char *error_msg
 
         int64_t skip_empty_lines
+        int bom_found
 
     ctypedef struct coliter_t:
         char **words
