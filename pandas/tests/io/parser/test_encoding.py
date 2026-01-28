@@ -389,7 +389,9 @@ def test_bom_handling_deprecation(
     if parser.engine not in ["c", "c_high", "c_low"]:
         pytest.skip("BOM warning not yet implemented for Python/PyArrow engines")
 
-    with tm.assert_produces_warning(warning_type, match=warning_match, check_stacklevel=False):
+    with tm.assert_produces_warning(
+        warning_type, match=warning_match, check_stacklevel=False
+    ):
         result = parser.read_csv(BytesIO(data), encoding=encoding)
 
     assert result.columns[0] == expected_col
