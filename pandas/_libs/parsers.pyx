@@ -396,7 +396,7 @@ cdef class TextReader:
                   float_precision=None,
                   bint skip_blank_lines=True,
                   encoding_errors=b"strict",
-                  dtype_backend="numpy":
+                  dtype_backend="numpy",
                   **kwds):
 
         cdef bint strip_bom = kwds.pop("_strip_bom", True)
