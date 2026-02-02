@@ -83,11 +83,16 @@ class CParserWrapper(ParserBase):
         # but warn if user explicitly asked for 'utf-8' and a BOM exists.
         encoding = kwds.get("encoding", None)
 
-        if encoding is None:
+        encoding_lower = encoding.lower() if encoding is not None else None
+        if encoding_lower is None or encoding_lower == "utf-8":
             # Default: strip but warn
             strip_bom = True
             warn_bom = True
-        elif encoding.lower().endswith("-sig"):
+        elif encoding_lower in {"latin1", "latin-1", "cp1252"}:
+            # Latin-1 compatible encodings should not treat BOM as special.
+            strip_bom = False
+            warn_bom = False
+        elif encoding_lower.endswith("-sig"):
             # Only -sig variants strip without warning
             strip_bom = True
             warn_bom = False
